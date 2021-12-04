@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class UdemyChallenge22 {
     public static void main(String[] args) {
 
-        //GUESSING GAME//
+        //BASIC GUESSING GAME//
 
         Random rnd = new Random();
-        int num = rnd.nextInt(50)+1; //[1-100]
+        int num = rnd.nextInt(50)+1; //[1-100] //You can enter whatever you want. It's up to you.
         int due = 5;
 
         while (due>0){
